@@ -1,0 +1,18 @@
+.loginbtn
+{
+    border: 1px solid gray;
+    width: 50px;
+    height: 32px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 172, 183);
+    font-size: 18px;
+
+}
+.homebtn
+{
+    font-size: 18px;
+    color: black;
+}

@@ -1,0 +1,21 @@
+#main-div
+{
+    /* min-height: 100px;
+    height: 800px; */
+    /* background-color: rgb(84, 211, 111); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.item
+{
+    height: 320px;
+    width: 500px;
+    float: left;
+    /* background-color: yellow; */
+    margin-left: 28px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

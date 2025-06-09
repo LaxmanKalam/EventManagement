@@ -1,0 +1,189 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* Applying the font to the body */
+}
+
+
+.subnav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(126, 122, 122);
+  /* Darker background color */
+  padding: 15px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); */
+  border-radius: 50px;
+  height: 60px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin-left: 305px;
+  z-index: 900;
+  margin-top: 0px;
+  /* Rounded corners for the subnav */
+}
+
+.subnav-item {
+  /* margin: 0 15px; */
+  height: 100%;
+  width: 200px;
+  /* background-color: yellow; */
+}
+
+
+.subnav-item select {
+  /* padding: 10px 15px; */
+  border: 2px solid #2980b9;
+  /* Border color */
+  border-radius: 5px;
+  /* Rounded corners for inputs and button */
+  font-size: 13px;
+  transition: all 0.3s ease;
+  /* Smooth transition for hover effects */
+}
+
+.subnav-item button {
+  /* padding: 10px 15px; */
+  /* border: 2px solid #2980b9; */
+  /* Border color */
+  border-radius: 5px;
+  /* Rounded corners for inputs and button */
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  /* Smooth transition for hover effects */
+}
+
+.subnav-item input,
+.subnav-item button {
+  /* padding: 10px 15px; */
+  /* border: 2px solid #2980b9; */
+  /* Border color */
+  border-radius: 5px;
+  /* Rounded corners for inputs and button */
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  /* Smooth transition for hover effects */
+}
+
+.subnav-item select {
+  background-color: #ecf0f1;
+  /* Light background for select */
+}
+
+.subnav-item input {
+  background-color: #ecf0f1;
+  /* Light background for input */
+}
+
+.subnav-item button {
+  /* background-color: #2980b9; */
+  /* Button background color */
+  color: rgb(0, 0, 0);
+  /* Button text color */
+  cursor: pointer;
+}
+
+.subnav-item button:hover {
+  /* background-color: #3498db; */
+  /* Lighter blue on hover */
+  /* border-color: #3498db; */
+  /* Change border color on hover */
+}
+
+select {
+  height: 30px;
+  width: 200px;
+}
+
+.subnav-item button {
+  height: 30px;
+  width: 200px;
+}
+
+.subnav-item select:hover,
+.subnav-item input:hover {
+  /* border-color: #3498db; */
+
+  /* Change border color on hover */
+}
+
+/* ManualCalendar.css */
+.calendar-container {
+  /* position: absolute; */
+  text-align: center;
+  height: 30px;
+  width: 300px;
+}
+
+.check-in-button {
+  height: 30px;
+  width: 200px;
+}
+/* .check-in-button span
+{
+  
+} */
+.check-in-button {
+  margin-left:25px;
+  padding-top: 5px;
+  display: block;
+  height: 35px;
+  width: 250px;
+  font-size: 13px;
+  
+  color: rgb(0, 0, 0);
+  /* background-color: #86B817; */
+  /* Bootstrap primary color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-bottom: 20px; */
+}
+
+.check-in-button:hover {
+  /* background-color: #587f05; */
+  /* Darker blue on hover */
+}
+
+.calendar {
+  position: absolute;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  color: rgb(0, 0, 0);
+  background-color: #86B817;
+}
+
+.controls {
+  margin: 10px 0;
+}
+
+select,
+input {
+  padding: 5px;
+  /* margin: 0 5px; */
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
